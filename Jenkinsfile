@@ -13,7 +13,7 @@ pipeline {
         stage('Prueba en Linux') {
           steps {
             echo 'Ejecutando la Prueba en Linux'
-            sh 'sh run_linux_test.sh'
+            sh 'sh run_linux_tests.sh'
           }
         }
 
