@@ -4,7 +4,7 @@ pipeline {
     stage('Construir') {
       steps {
         echo 'Construyendo Pipe'
-        sh 'sh run_build.script.sh'
+        sh 'sh run_build_script.sh'
       }
     }
 
@@ -34,9 +34,9 @@ pipeline {
       }
     }
 
-    stage('Despliegue en Producción') {
+    stage('Despliegue en ProducciÃ³n') {
       steps {
-        echo 'Se despliega en Producción'
+        echo 'Se despliega en ProducciÃ³n'
       }
     }
 
