@@ -31,15 +31,15 @@ pipeline {
         echo 'Ingreso de Mensaje Manual'
         input 'Tenemos tu Ok para el despiegue?'
         timestamps() {
-          echo 'Hello World'
+          echo 'Aqui fue cuando dieron el ok para la aprobacion'
         }
 
       }
     }
 
-    stage('Despliegue en Producción') {
+    stage('Despliegue en Produccion') {
       steps {
-        echo 'Se despliega en Producción'
+        echo 'Se despliega en Produccion'
       }
     }
 
