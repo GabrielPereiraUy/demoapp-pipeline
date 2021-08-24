@@ -30,7 +30,6 @@ pipeline {
       steps {
         echo 'Ingreso de Mensaje Manual'
         input 'Tenemos tu Ok para el despiegue?'
-        timestamps()
       }
     }
 
